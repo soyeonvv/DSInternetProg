@@ -25,4 +25,4 @@ urlpatterns = [
     path('', include('single_pages.urls')),    # 서버IP/
 ]
 
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)    # 서버IP/media/
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)    # 서버IP/media/ 
